@@ -51,37 +51,43 @@ This Repo develops a **TensorFlow model** to recognize **Chinese tones** from sp
 
 ## Dataset
 - Primary dataset: [TonePerfect](https://tone.lib.msu.edu/)
-- Additional data: **Forvo API** (real-world pronunciation examples)
-- Inspiration: (https://www.isca-archive.org/interspeech_2019/gao19c_interspeech.pdf)
+- Additional data: [Forvo] (https://forvo.com/)
 
 ## Project Workflow
 1. **Data Preparation**
-   - Visualize individual spectrograms
-   - Convert all recordings into **Mel Spectrograms**
-   - Format data into a TensorFlow dataset
+   - Utilized Librosa to create Mel Spectrograms and convert into dbs
+   - Leveraged MatplotLib + Librosa Specshow to create spectrogram images
+   - Save Images Into Tone Categories
+   - Format data into a TensorFlow Dataset
 
 2. **Enhancing the Dataset**
-   - Fetch real-world examples from the **Forvo API** for better generalization
+   - Fetch real-world audio examples from the **Forvo API** for better generalization
    - Merge datasets
 
 3. **Model Training**
+   - Architecture Inspiration: (https://www.isca-archive.org/interspeech_2019/gao19c_interspeech.pdf)
    - Design and train a deep learning model using **TensorFlow & Keras**
-   - Evaluate results and refine architecture
    - Utilizing Convolution Layers
    - Dropout
    - Early Stopping
    - TF Checkpoints
+  
+4. **Results**
 
-4. **Results Visualization**
-   - Scikit Learn Confusion Metric
+   - 93% on Training Data
+   - 98% Accuracy on Validation/Test Data
+   - More In Depth Discussion Inside Notebook
+
+6. **Results Visualization**
+   - Scklearn Learn Confusion Metric
    - Discussion of Recall/Precision/Accuracy and False Negatives/False Positives
-
+  
 ## Dependencies
 - `TensorFlow`
 - `Librosa`
 - `Matplotlib`
 - `NumPy`
 - `Forvo API` (for additional data)
-- `Scikit-Learn`
+- `Sklearn`
 
 
