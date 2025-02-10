@@ -1,0 +1,7 @@
+data*
+myenv*
+*.keras
+.env
+*.code-workspace
+*.DS_Store
+
