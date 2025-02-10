@@ -17,7 +17,7 @@ Messing up a tone can completely change the meaning of a sentence. This is a com
 ---
 
 ## **Project Breakdown**
-This repository is **Step 2** of the overall project: containerizing the ML model for the app. Below is an overview of the full project workflow:
+This repository is **Step 1** of the overall project. Below is an overview of the full project workflow:
 
 ### **Step 1: Tone Classification Model (This Repo)**
 - Trained a **Deep Convolutional Neural Network (CNN)** on spectrograms of native Mandarin speakers using:
