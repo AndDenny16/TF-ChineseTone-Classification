@@ -52,6 +52,7 @@ This Repo develops a **TensorFlow model** to recognize **Chinese tones** from sp
 ## Dataset
 - Primary dataset: [TonePerfect](https://tone.lib.msu.edu/)
 - Additional data: **Forvo API** (real-world pronunciation examples)
+- Inspiration: (https://www.isca-archive.org/interspeech_2019/gao19c_interspeech.pdf)
 
 ## Project Workflow
 1. **Data Preparation**
