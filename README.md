@@ -1,5 +1,5 @@
 # **Tone Buddy**  
-## **Step 2: Dockerized ML Model**
+## **Step 1: Deep Convolutional NN for Tone Classification**
 
 ---
 
